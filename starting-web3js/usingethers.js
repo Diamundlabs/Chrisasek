@@ -1,5 +1,5 @@
 const { ethers } = require("ethers");
-const ABI = require("./ABI.json");
+const ABI = require("./ABI.json");  
 const contractAddress = "0xA0b73E1Ff0B80914AB6fe0444E65848C4C34450b";
 
 const getBlockNumber = async () => {
